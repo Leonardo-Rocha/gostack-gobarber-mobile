@@ -41,7 +41,7 @@ const SignUp: React.FC = () => {
             <View>
               <Title>Crie sua conta</Title>
             </View>
-            <Form ref={formRef} onSubmit={handleSignUp}>
+            <Form style={{ width: '100%' }} ref={formRef} onSubmit={handleSignUp}>
               <Input name="name" icon="user" placeholder="Nome" />
               <Input name="email" icon="mail" placeholder="E-mail" />
               <Input name="password" icon="lock" placeholder="Senha" />
